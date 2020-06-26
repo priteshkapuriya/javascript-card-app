@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.appName {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.container {
+  border-top: 5px solid #bfbfbf;
+  background-color: #efefef;
+  max-width: 1140px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.buttonContainer {
+  flex: 0 0 25%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.rowContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.numberCardsContainer {
+  flex: 0 0 75%;
+  max-width: 75%;
+  position: relative;
+  width: 100%;
+}
+.appBy {
+  text-align: center;
+  padding-bottom: 80px;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.column {
+  width: 32%;
+}
+.cardsRow {
+  display: flex;
+}
+
+.cardsRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.numberCard {
+  padding: 88px;
+  text-align: center;
+}
+.mineShaft {
+  background-color: #333333;
+}
+.jellyBean {
+  background-color: #2b8ead;
+}
+.silver {
+  background-color: #bfbfbf;
+}
+.gothic {
+  background-color: #6f98a8;
+}
+h1 {
+  color: #fff;
+}
+.genButton {
+  width: 170px;
+  height: 45px;
+  background-color: #72c3dc;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 0 0 5px 0;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: inset 0 -4px 0px 0px #2b8ead;
+}
+.sortButton {
+  margin-top: 15px;
+}
+.shuffleButton {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .numberCard {
+    padding: 27%;
+  }
+  .appBy {
+    padding-bottom: 55px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .numberCard {
+    padding: 65px;
+  }
+  .appBy {
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .numberCard {
+    padding: 35px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .genButton {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 961px) {
+  .container {
+    max-width: 940px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .genButton {
+    width: 100px;
+  }
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cardsRow {
+    display: block;
+  }
+  .rowContainer {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .numberCardsContainer {
+    flex: none;
+    max-width: none;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #first {
+    order: 2;
+  }
+  #second {
+    order: 1;
+    display: inline-flex;
+  }
+  .shuffleButton {
+    margin: 10px 0 15px 6rem;
+  }
+  .sortButton {
+    margin: 10px 0px 10px 5px;
+  }
+  .genButton {
+    width: 80px;
+    height: 50px;
+  }
+  .appName {
+    background-color: #333333;
+    color: #fff;
+    height: 40px;
+    padding-top: 8px;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+  }
+  .container {
+    border-top: none;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  .column {
+    margin-bottom: 10px;
+  }
+  .numberCard {
+    padding: 20px;
+    background-color: #efefef;
+  }
+  .hnumber {
+    color: #000;
+    font-size: 1.45rem;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .appBy {
+    padding-bottom: 0px;
+  }
+  .mineShaft {
+    border-left: 10px solid #333333;
+  }
+  .jellyBean {
+    border-left: 10px solid #2b8ead;
+  }
+  .silver {
+    border-left: 10px solid #bfbfbf;
+  }
+  .gothic {
+    border-left: 10px solid #6f98a8;
+  }
+}
+@media only screen and (min-device-width: 376px) and (max-device-width: 600px) {
+  .shuffleButton {
+    margin-left: 7rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .shuffleButton {
+    margin-left: 4.3rem;
+  }
+}
