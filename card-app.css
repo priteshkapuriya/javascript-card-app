@@ -13,7 +13,7 @@ body {
 .container {
   border-top: 5px solid #bfbfbf;
   background-color: #efefef;
-  max-width: 1140px;
+  max-width: 960px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -38,7 +38,7 @@ body {
 }
 .appBy {
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   font-style: italic;
   font-size: 15px;
   margin-top: 10px;
@@ -57,7 +57,7 @@ body {
 }
 
 .numberCard {
-  padding: 88px;
+  padding: 45px;
   text-align: center;
 }
 .mineShaft {
@@ -93,51 +93,18 @@ h1 {
 .shuffleButton {
   margin-top: 20px;
 }
-
-@media screen and (max-width: 1440px) {
-  .numberCard {
-    padding: 27%;
-  }
-  .appBy {
-    padding-bottom: 55px;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .numberCard {
-    padding: 65px;
-  }
-  .appBy {
-    padding-bottom: 10px;
-  }
-}
 @media screen and (max-width: 1024px) {
-  .numberCard {
-    padding: 35px;
-  }
-  .container {
-    max-width: 960px;
-  }
-}
-@media screen and (max-width: 990px) {
   .genButton {
     width: 140px;
   }
-}
-@media screen and (max-width: 961px) {
   .container {
-    max-width: 940px;
+    max-width: 725px;
+  }
+  .numberCard {
+    padding: 30px;
   }
 }
-@media screen and (max-width: 765px) {
-  .genButton {
-    width: 100px;
-  }
-  .container {
-    max-width: 540px;
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .cardsRow {
     display: block;
   }
@@ -166,7 +133,7 @@ h1 {
     display: inline-flex;
   }
   .shuffleButton {
-    margin: 10px 0 15px 6rem;
+    margin: 10px 0 15px 180%;
   }
   .sortButton {
     margin: 10px 0px 10px 5px;
@@ -221,13 +188,18 @@ h1 {
     border-left: 10px solid #6f98a8;
   }
 }
-@media only screen and (min-device-width: 376px) and (max-device-width: 600px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 767px) {
   .shuffleButton {
-    margin-left: 7rem;
+    margin-left: 155%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .shuffleButton {
+    margin-left: 150%;
   }
 }
 @media screen and (max-width: 321px) {
   .shuffleButton {
-    margin-left: 4.3rem;
+    margin-left: 135%;
   }
 }
