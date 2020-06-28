@@ -15,13 +15,13 @@ function colorDecider(arr, colorArr) {
   var colorMapping = {
     1: "gothic",
     2: "jellyBean",
-    3: "mineShaft",
+    3: "blueWood",
     4: "jellyBean",
-    5: "mineShaft",
+    5: "blueWood",
     6: "silver",
     7: "silver",
     8: "gothic",
-    9: "mineShaft",
+    9: "blueWood",
   };
   var keys = Object.keys(colorMapping);
   var val = Object.values(colorMapping);

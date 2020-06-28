@@ -7,11 +7,11 @@ body {
 }
 .appName {
   text-align: center;
-  font-weight: bold;
   margin: 10px 0px;
+  font-size: 13px;
 }
 .container {
-  border-top: 5px solid #bfbfbf;
+  border-top: 3px solid #bfbfbf;
   background-color: #efefef;
   max-width: 960px;
   width: 100%;
@@ -40,7 +40,7 @@ body {
   text-align: center;
   padding-bottom: 40px;
   font-style: italic;
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 10px;
 }
 .column {
@@ -60,8 +60,8 @@ body {
   padding: 45px;
   text-align: center;
 }
-.mineShaft {
-  background-color: #333333;
+.blueWood {
+  background-color: #2F454E;
 }
 .jellyBean {
   background-color: #2b8ead;
@@ -146,10 +146,11 @@ h1 {
     background-color: #333333;
     color: #fff;
     height: 40px;
-    padding-top: 8px;
-    font-size: 22px;
+    padding-top: 15px;
+    font-size: 18px;
     font-weight: normal;
     margin: 0;
+    letter-spacing: 1.5px;
   }
   .container {
     border-top: none;
@@ -175,8 +176,8 @@ h1 {
   .appBy {
     padding-bottom: 0px;
   }
-  .mineShaft {
-    border-left: 10px solid #333333;
+  .blueWood {
+    border-left: 10px solid #2F454E;
   }
   .jellyBean {
     border-left: 10px solid #2b8ead;
